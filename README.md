@@ -1,4 +1,4 @@
- NewThe analysis is based on the data provided in two CSV files for Pymaceuticals Inc. about 249 mice which were tested in this study to compare the performance of Capomulin (the drug of interest) against other treatment regimens.
+The analysis is based on the data provided in two CSV files for Pymaceuticals Inc. about 249 mice which were tested in this study to compare the performance of Capomulin (the drug of interest) against other treatment regimens.
 First, the two datasets are merged to create a single dataset containing all data. The dataset is then cleaned by identifying the duplicated data for Mouse ID and Timepoint and removing this duplicated data from the merged dataset.
 A summary statistics table is then created by calculating the mean, median, variance, standard deviation, and standard error for tumor volume under each drug regimen.
 For analysis, two identical bar charts are created using Pandas and Matplotlib to show the total number of timepoints for all mice tested under each drug regimen.
